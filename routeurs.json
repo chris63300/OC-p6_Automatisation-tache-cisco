@@ -1,0 +1,22 @@
+[
+  {
+
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.4"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.3"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.2"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.5"
+  }
+]

@@ -1,0 +1,6 @@
+show clock
+show ip dhcp binding
+show ip interface brief
+show ip route
+show env all
+show ?

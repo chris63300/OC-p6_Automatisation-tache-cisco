@@ -1,0 +1,59 @@
+Python 3.7
+Netmiko 3.3.0
+Cisco
+Debian buster 4.19.0-9
+
+## Automatisation_tache_cisco
+
+Cet outil a pour but d'automatiser des taches de lecture de configuration
+ou de lecture d'état des machines(température, heure etc), ainsi que la lecture
+de toutes les commandes existante 'show' sur des équipements CISCO.
+
+L'important étant dans ce script, d'obtenir des sorties
+des équipements concernés en ".txt", de manière ordonné (dossier portant le nom des machines),
+et claire (fichiers portant le nom des commandes concernées).
+
+## Prérequis
+
+Vous aurez besoin d'un accés SSH sur les cibles
+
+## Installation
+
+chmod +x execution.py
+chmod +x switch_routeur.py
+
+### configuration
+
+Le nom d'utilisateur privilégié des cibles ainsi que le mot de passe doit
+être renseigné à l'invite.
+Vous devrez renseigner les IP correspondante aux cibles dans les fichiers .json
+Ainsi que les commandes "show" désirée dans les fichiers commandes
+
+exemple "routers.json ou switches.json"
+
+[
+  {
+
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.4"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.3"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.2"
+  },
+
+  {
+    "device_type": "cisco_ios",
+    "ip": "10.0.0.5"
+  }
+]
+
+### Exècution du SCRIPT
+
+Suivre les instructions en exècutant : le fichier execution.py
