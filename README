@@ -22,6 +22,10 @@ Vous aurez besoin d'un accés SSH sur les cibles
 chmod +x execution.py
 chmod +x switch_routeur.py
 
+## Topologie de test 
+
+La topologie de test est représentée dans le fichier """topologie_test.png"""
+
 ### configuration
 
 Le nom d'utilisateur privilégié des cibles ainsi que le mot de passe doit
