@@ -10,7 +10,7 @@ ou de lecture d'état des machines(température, heure etc), ainsi que la lectur
 de toutes les commandes existante 'show' sur des équipements CISCO.
 
 L'important étant dans ce script, d'obtenir des sorties
-des équipements concernés en ".txt", de manière ordonné (dossier portant le nom des machines),
+des équipements concernés en ".txt", de manière ordonnées (dossier portant le nom des machines),
 et claire (fichiers portant le nom des commandes concernées).
 
 ## Prérequis
