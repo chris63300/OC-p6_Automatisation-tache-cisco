@@ -45,7 +45,7 @@ for device in devices:
     try:
 # Séparation des sorties par des -------
         print('-'*80)
-        print('Connexion réussie', device['ip'])
+        print('Connexion en cours', device['ip'])
         connection = netmiko.ConnectHandler(**device)
 
         # Création d'un nouveau répertoire portant le nom d'invite de base \
