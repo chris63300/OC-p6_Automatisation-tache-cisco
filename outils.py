@@ -11,8 +11,7 @@ def get_input(prompt=''):
     return line
 
 def get_credentials():
-    '''Invite, et retourne, un nom d\'utilisateur et un mot de passe.'''
-
+#Invite, et retourne, un nom d'utilisateur et un mot de passe.
     username = get_input('Entrer nom d\'utilisateur: ')
     password = None
     while not password:
