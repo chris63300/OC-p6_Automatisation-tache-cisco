@@ -21,7 +21,8 @@ signal.signal(signal.SIGINT, signal.SIG_DFL)
 if len(sys.argv) < 3:
     exit()
 
-# Machine en panne ou déconnecté est indiquée comme une exception
+# Session SSH chronométrée en essayant de se connecter à l'appareil.
+# Exception d'authentification SSH basée sur Paramiko AuthenticationException.
 netmiko_exceptions = (netmiko.ssh_exception.NetMikoTimeoutException,
                       netmiko.ssh_exception.NetMikoAuthenticationException)
 
