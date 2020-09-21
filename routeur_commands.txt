@@ -1,5 +1,7 @@
 show clock
 show ip dhcp binding
+show ip dhcp pool
+show running-config
 show ip interface brief
 show ip route
 show env all
